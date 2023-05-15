@@ -1,0 +1,56 @@
+/*margin = espaçamento externo FORA
+  padding = espaçamento interno DENTRO
+  height = altura
+  width = largura */
+
+.titulo-principal{
+    padding-left: 20px;
+}
+
+.bannerPrincipal{
+    height: 450px;
+    width: 100%;
+}
+
+.principal{
+    background: #cccccc;  /* cor de fundo*/
+    padding: 30px;
+}
+
+.titulo-centralizado{
+    text-align: center; /*colocar no centro*/
+}
+
+
+p{
+    text-align: center;
+}
+
+.missao{
+    font-size: 20px;
+}
+
+em strong{
+    color: red;  /* cor do elemento (cor letra)*/
+}
+
+
+.beneficios{
+    background: #ffffff;
+    padding: 20px;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.itens{
+    font-style: italic;  /*colocar em italico*/
+}
+
+.imagemBeneficios{
+    width: 50%;
+}

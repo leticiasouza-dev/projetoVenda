@@ -1,0 +1,74 @@
+/*margin = espaçamento externo FORA
+  padding = espaçamento interno DENTRO
+  height = altura
+  width = largura */
+
+
+header{
+    background: #bbbbbb;
+    padding: 20px 0;
+}
+
+.caixa{
+    position: relative;
+    width: 940px; /* largura padrão dos navegadores*/
+    margin: 0 auto;
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+nav{
+    position: absolute; /* usado para mudar de lugar um elemento*/
+    top: 110px;   /* subir o elemento */
+    right: 0;  /* mover para o lado direito*/
+}
+
+nav li{
+    display: inline; /*deixar um elemento do lado do outro*/
+    margin: 0 0 0 15px;  /* dar um espaçamento entre um elemento e outro (quando estão um do lado do outro)*/
+    
+}
+
+nav a{
+    text-transform: uppercase; /*colocar o texto em maiuscolo.*/
+    color: black;  /* alterar a car*/
+    font-weight: bold; /* colocar em negrito*/
+    font-size: 22px; /* tamanho da fonte*/
+    text-decoration: none; /* retirar o sublinhado de baixo da palavra*/
+}
+
+.produtos{
+    width: 980px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.produtos li{
+    display: inline-block; /*com essa propriedade o atamanho pode ser ajustado para a largura e altura*/
+    text-align: center; /* centralizar o texto*/
+    width: 45%;
+    vertical-align: top; /* alinhar meus itens em cima na linha de cima*/
+    margin: 0, 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box; 
+    border: rgb(151, 128, 128) 1px solid;
+    border-radius: 15px;
+}
+
+.produtos h2{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.imagem-Produtos{
+    width: auto; /*largura*/
+    height: 300px;  /* autura*/
+}
+
+.preco-produtos{
+    font-size: 19px;
+    font-weight: bold; /*colocar em negrito(alterar a fonte da letra) */
+    margin-top: 10px;
+}
