@@ -41,6 +41,11 @@ nav a{
     text-decoration: none; /* retirar o sublinhado de baixo da palavra*/
 }
 
+nav a:hover{ /*quando o mouse passar por cima*/
+    color: #c78c19;
+    text-decoration: underline;
+}
+
 .produtos{
     width: 980px;
     margin: 0 auto;
@@ -57,6 +62,18 @@ nav a{
     box-sizing: border-box; 
     border: 2px solid #000000; /*tamanha da minha borda, qual a clalificação dela e a cor*/
     border-radius: 15px; /* para arredondar a bordar, usado somento a quantidade de Px que quero arredondar todas as bordas iguais*/
+}
+
+.produtos li:hover{ /*quando o mouse estiver por cima do elemento*/
+    border-color: #c78c19;
+}
+
+.produtos li:active{  /*quando o mouse estiver clicando no elemento*/
+    border-color: red;
+}
+
+.produtos li:hover h2{ /* quando o mouse estiver por cima do h2 alterar alguma coisa*/
+    font-size: 30px;
 }
 
 .produtos h2{
