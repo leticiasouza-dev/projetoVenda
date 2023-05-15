@@ -91,3 +91,9 @@ nav a:hover{ /*quando o mouse passar por cima*/
     font-weight: bold; /*colocar em negrito(alterar a fonte da letra) */
     margin-top: 10px;
 }
+
+footer{
+    background-color: rgb(166, 115, 207);
+    text-align: center; /*deixar o elemento no centro*/
+    padding: 40px 0;
+}
