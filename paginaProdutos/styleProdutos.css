@@ -97,3 +97,9 @@ footer{
     text-align: center; /*deixar o elemento no centro*/
     padding: 40px 0;
 }
+
+.Copyrigth{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
