@@ -1,7 +1,9 @@
 /*margin = espaçamento externo FORA
   padding = espaçamento interno DENTRO
   height = altura
-  width = largura */
+  width = largura 
+  borda = ela fica posicionada entre o padding e a margin
+  */
 
 
 header{
@@ -53,8 +55,8 @@ nav a{
     margin: 0, 1.5%;
     padding: 30px 20px;
     box-sizing: border-box; 
-    border: rgb(151, 128, 128) 1px solid;
-    border-radius: 15px;
+    border: 2px solid #000000; /*tamanha da minha borda, qual a clalificação dela e a cor*/
+    border-radius: 15px; /* para arredondar a bordar, usado somento a quantidade de Px que quero arredondar todas as bordas iguais*/
 }
 
 .produtos h2{
