@@ -1,0 +1,80 @@
+/*margin = espaçamento externo FORA
+  padding = espaçamento interno DENTRO
+  height = altura
+  width = largura 
+  borda = ela fica posicionada entre o padding e a margin
+  */
+
+header{
+    background: #bbbbbb;
+    padding: 20px 0;
+} 
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+
+footer{
+    background-color: rgb(173, 138, 201);
+    text-align: center;
+    padding: 0;
+}
+
+.Copyrigth{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
