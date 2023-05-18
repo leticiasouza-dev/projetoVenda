@@ -1,45 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato - Tecnoplus</title>
-    <link rel="stylesheet" href="styleContatos.css">
-    <link rel="stylesheet" href="/reset.css">
-</head>
-<body>
-    <header>
-        <div class="caixa">
-            <h1><img class="logo" src="/paginaProdutos/img/logo.png" alt="logo da loja"></h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contato - Tecnoplus</title>
+        <link rel="stylesheet" href="/reset.css">
+        <link rel="stylesheet" href="styleContatos.css">
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1><img class="logo" src="/paginaProdutos/img/logo.png" alt="logo da loja"></h1>
 
-            <nav>
-                <ul>
-                    <li><a href="/paginaPrincipal/indexPrincipal.html">Home</a></li>
-                    <li><a href="/paginaProdutos/produtos.html">Produtos</a></li>
-                    <li><a href="contatos.html">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <form> <!--tag de formulário-->
-            <label for="nomeSobrenome">Nome e Sobrenome</label> <!--label serve para dar nome ao input-->
-            <input type="text" id="nomeSobrenome">    <!--campo do tipo texto-->
+                <nav>
+                    <ul>
+                        <li><a href="/paginaPrincipal/indexPrincipal.html">Home</a></li>
+                        <li><a href="/paginaProdutos/produtos.html">Produtos</a></li>
+                        <li><a href="contatos.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <form> <!--tag de formulário-->
+                <label for="nomeSobrenome"> Nome e Sobrenome</label> <!--label serve para dar nome ao input-->
+                <input type="text" id="nomeSobrenome" class="input-padrao">    <!--campo do tipo texto-->
 
-            <label for="Email">Email</label>
-            <input type="email" id="Email">
+                <label for="Email">Email</label>
+                <input type="email" id="Email" class="input-padrao">
 
-            <label for="Telefone">Telefone</label>
-            <input type="tel" id="Telefone"> 
+                <label for="Telefone">Telefone</label>
+                <input type="tel" id="Telefone" class="input-padrao"> 
 
-            <input type="submit" value="Enviar formulário">  <!--input para envio-->
-        </form>
-    </main>
+                <label for="mesagem">Mensagem</label>
+                <textarea cols="30" rows="10" id="mesagem" class="input-padrao"></textarea> <!--tag usada para campos onde o usuario pode escrever mais que uma linha.-->
 
-    <footer>
-        <img src="/paginaProdutos/img/logo.png" alt="logo da página no rodapé">
-        <p class="Copyrigth">&copy; Copyrigth Tecnoplus - 2023</p>
-    </footer>
-</body>
+                <div>
+                    <p>Como prefere o nosso contato?</p>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> <!--tipo de input para selecionar-->Email</label>
+                    
+                    <label for="radio-telefone"><input type="radio" name="contato"value="Telefone" id="radio-telefone">Telefone</label>
+                    
+                    <label for="radio-whatsapp"><input type="radio" name="contato"value="Whatsapp" id="radio-whatsapp">Whatsapp</label>
+                    
+                </div>
+
+                <label class="checkbox"><input type="checkbox">Gostaria de receber nossar novidade por email?</label>
+                <input type="submit" value="Enviar formulário">  <!--input para envio-->
+            </form>
+        </main>
+
+        <footer>
+            <img src="/paginaProdutos/img/logo.png" alt="logo da página no rodapé">
+            <p class="Copyrigth">&copy; Copyrigth Tecnoplus - 2023</p>
+        </footer>
+    </body>
 </html>
