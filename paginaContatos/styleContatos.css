@@ -70,6 +70,25 @@ form label, form legend{
     margin: 20px 0;
 }
 
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;  /*transição de todods os elementos aconeteceram em 1 segundo usando a propriedade ALL*/
+    cursor: pointer; /*quando o mouse passar por cima aparecer a maozinha ao inves da seta*/
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);/*serve para aumentarmos o tamanho do elemento*/
+    /*transform rotate() usado para girar o elemento*/
+}
+
 
 footer{
     background-color: rgb(173, 138, 201);
