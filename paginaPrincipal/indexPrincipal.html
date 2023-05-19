@@ -5,7 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>TecnoPlus</title>
-        <link rel="stylesheet" href="/paginaPrincipal/stylePrincipal.css">
+        <link rel="stylesheet" href="/reset.css">
+        <link rel="stylesheet" href="./stylePrincipal.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Fonte externa de fonte (Google Fonts)-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     </head>
     <body>
         <header> <!--cabeçalho da página-->
@@ -14,7 +18,7 @@
         
             <nav>
             <ul>
-                <li><a href="/paginaPrincipal/indexPrincipal.html">Home</a></li>
+                <li><a href="./indexPrincipal.html">Home</a></li>
                 <li><a href="/paginaProdutos/produtos.html">Produtos</a></li>
                 <li><a href="/paginaContatos/contatos.html">Contato</a></li>
             </ul>
@@ -22,11 +26,13 @@
         </div>
         </header>
         
-        <img class="bannerPrincipal" src="/paginaPrincipal/imgs/banner.jpg" alt="imagem da loja com os eletrónicos">
+        <img class="bannerPrincipal" src="./imgs/banner.jpg" alt="imagem da loja com os eletrónicos">
 
         <main>
             <section class="principal"> <!--div so uma divisão visual e section divisão onde tem um conteudo complexo-->
-                <h2 class="titulo-centralizado">Sobre a TecnoPlus</h2>
+                <h2 class="titulo-principal">Sobre a TecnoPlus</h2>
+
+                <img class="utensilios" src="/paginaProdutos/img/fone1.png" alt="imagem de um fone">
                 <p>
                     localizada no centro da cidade, a <strong>TecnoPlus</strong> traz para o
                     mercado o que há de melhor em produtos tecnólogicos e eletronicos.
@@ -44,9 +50,19 @@
                     dos nossos clientes.
                 </p>
             </section>
+
+            <section class="mapa">
+                <h3 class="titulo-principal">Nosso estabelecimento</h3>
+                <p>Nosso estabelecimento está localizado no coração da cidade.</p>
+                <!--link de um mapa-->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.075426911632!2d-46.65381818980571!3d-23.56573436166301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1684498615200!5m2!1spt-BR!2sbr" 
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade" alt="mapa">
+                </iframe>
+            </section>
             
             <section class="beneficios">
-                <h3 class="titulo-centralizado">Benefícios</h3>
+                <h3 class="titulo-principal">Benefícios</h3>
                 <ul> <!--lista não ordenada-->  
                     <li class="itens">Atendimento aos Clientes</li>
                     <li class="itens">Espaço diferenciado</li>
@@ -54,10 +70,19 @@
                     <li class="itens">profissionais Qualificados</li>
                     <li class="itens">Produtos de Alta Qualidade</li>
                 </ul>
-                <img class="imagemBeneficios" src="/paginaPrincipal/imgs/computador1.jpg" alt="imagem de um computador">
+                <img class="imagemBeneficios" src="./imgs/computador1.jpg" alt="imagem de um computador">
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dXehgt05g8Q?start=8" title="YouTube video player"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                </div>
+                
             </section>
         </main>
-        
+        <footer>
+            <img src="/paginaProdutos/img/logo.png" alt="imagem da logo no rodapé">
+            <p class="copyrigth">&copy; copyrigth TecnoPlus - 2023</p>
+        </footer>
         
     </body>
 </html>
