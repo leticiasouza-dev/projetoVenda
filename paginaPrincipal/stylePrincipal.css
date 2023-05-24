@@ -94,6 +94,16 @@ nav a:hover{
     margin: 0 0 2em;
 }
 
+.conteudo-beneficios{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios{
+    width: 40px;
+    display: inline-block;
+}
+
 
 .beneficios{
     background: #ffffff;
