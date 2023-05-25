@@ -87,6 +87,27 @@ main{
     clear: left;/*limpa o float*/
 }
 
+     /* PSEUDO-ELEMENTOS */
+
+ /*.titulo-principal:first-letter{seleciona a primeira letra
+    font-weight: bold;
+}*/
+
+/*.titulo-principal::before{   adiciona alguma coisa antes do titulo princiapl
+    content: ""; Dentro dessas aspras colocar o que quer que aparesa antes do titlo principal
+}*/
+
+/*.titulo-principal:after{  adiciona alguma coisa depois do titlo principal 
+    content: "";   dentro dessas aspas colocar o quer que se aparesa depois do titulo principal
+}*/
+
+/*p:first-line{ seleciona a primeira linha dos meus paragrafos
+}*/
+
+.itens:before{
+    content: "🟊";
+}
+
 
 .missao{
     font-size: 20px;
@@ -110,7 +131,7 @@ main{
 }
 
 .conteudo-beneficios{
-    width: 640px;
+    width: 680px;
     margin: 0 auto;
 }
 
@@ -136,6 +157,7 @@ ul{
 .itens{
     /*font-style: italic;  colocar em italico*/
     line-height: 1.5; /* defini a altura da linha*/
+    width: 25em;
 }
 
 .itens:first-child{ /*seleciona o primeiro item que tem a class itens*/
@@ -144,6 +166,7 @@ ul{
 
 .imagemBeneficios{
     width: 50%;
+    padding: 0 6em;
 }
 
 .video{
