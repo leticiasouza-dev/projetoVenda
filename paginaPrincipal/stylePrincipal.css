@@ -174,8 +174,13 @@ ul{
     margin: 2em auto;
 }
 
+            /* EXEMPLOS E ANOTAÇÕES DE SELETORES AVANÇADOS NO CSS */
+
 /* main > p { seleciona somente o primeiro paragrafo do main (primeiro filho)
 } 
+
+section > p + h2 { seleciona o ultimo h2 daquela section.
+}
 
 img  + p { seleciona a tag p depois da img (seleciona o primeiro irmão)
 }
@@ -187,5 +192,9 @@ img ~ p{  seleciona todas a tags p depois da img ()
 }
 /*
 
+
+                    /* CÁLCULOS COM CSS */ 
+
+/* exemplo: width: calc(40% - 26px);                    
 
 
