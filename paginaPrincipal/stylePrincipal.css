@@ -85,6 +85,7 @@ main{
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;/*limpa o float*/
+    /* text-shadow: eixoy eixox cor; para adicionandar sombra no texto*/
 }
 
      /* PSEUDO-ELEMENTOS */
@@ -167,6 +168,17 @@ ul{
 .imagemBeneficios{
     width: 50%;
     padding: 0 6em;
+    opacity: 1; /*adicoonando opacidade o meu elemento*/ 
+    transition: 1s; /* defini o tempo em que vai ocorrer a opacidade*/
+    box-shadow: ; /*adiconar sombra a minha caixa box-shadow: eixoX eixoY grauDeEspelhamento intensidadeDaBorda corDaSombra;*/
+}
+
+             /* OPACIDADE EM CORES*/
+
+/* ex: color: rgba (numerocor1, numerocor2, numerocor3, valorOpacidade)*/
+
+.imagemBeneficios:hover{
+    opacity: 0.3;
 }
 
 .video{
