@@ -45,9 +45,7 @@ nav a:hover{
     text-decoration: underline;
 }
 
-main{
 
-}
 
 .bannerPrincipal{
     height: 450px;
@@ -184,6 +182,24 @@ ul{
 .video{
     width: 560px;
     margin: 2em auto;
+}
+
+@media screen and (max-width: 480px){ 
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+       width: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+
+    .lista-beneficios, .imagemBeneficios{
+        width: 100%;
+    }
 }
 
             /* EXEMPLOS E ANOTAÇÕES DE SELETORES AVANÇADOS NO CSS */
